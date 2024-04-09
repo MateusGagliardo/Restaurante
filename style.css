@@ -1,0 +1,109 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: #aaa;
+}
+
+header img {
+    width: 50px ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    list-style: none;
+
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+        color: brown;
+        margin: 10px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: blue;
+    
+}
+
+#banner { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    background-image: url(Assets/img/shawnanggg-nmpW_WwwVSc-unsplash.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    h1{
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 48px;
+        text-align: center;
+        color: aliceblue;
+    }
+}
+
+#pratos{
+
+}   
+Article ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+article {
+    background-color: #aaa ;
+}
+
+li {
+    list-style: none;
+}
+
+.CardPrato {
+    background-color: #fff;
+    border: #aaa solid 1px;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 32px;
+}
+
+footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px   ;
+    background-color: #aaa;
+    width: auto;
+    border: 1px solid rgb(5, 5, 5);
+}
+
+h3 {
+    display: flex;
+    justify-content: center ;
+    margin: 10px;
+}   
